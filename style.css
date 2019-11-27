@@ -1,0 +1,766 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.btn-warning{
+    height: 5%;
+    position: relative;
+    top:5px;
+    left:510px;
+    padding: 0rem .375rem;
+    font-size: 10px;
+}
+
+.fa-user{
+    position: relative;
+    left:520px;
+    top:2px;
+}
+
+.fa-shopping-cart{
+    position: relative;
+    left:535px;
+    top:2px;
+}
+
+#input{
+    position: relative;
+    left: 530px;
+    height: 15px;
+    width:100px;
+    font-size: 10px;
+}
+
+#navbar2{
+    margin-top: 20px;
+    background-color: rgb(179, 52, 52);
+    padding: 10px 0px 0px 0px;
+    height:5%;
+    align-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar{
+    padding-top:0rem;
+    padding-bottom:0rem;
+    text-align: center;
+}
+
+.container-fluid .navbar{
+    width: 100%;
+    position: relative;
+    left: -30px;
+    z-index: 1111;
+}
+/* 
+li:first-child{
+    margin-left: 375px;
+} */
+
+.li-marg{
+   margin-left: 375px;
+
+}
+
+ul .nav li a{
+    color: white;
+    position: relative;
+    top:-5px;
+}
+
+ul .nav li a:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width:2px;
+    height:50px;
+    background-color: white;
+    transform: translate(0,-50%);
+}
+
+ul .nav li:first-child a:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 65px;
+    width:2px;
+    height:50px;
+    background-color: white;
+    transform: translate(0,-50%);
+}
+
+.imglogo{
+    height: 0px;
+    width:401px;
+    position: relative;
+    top:-160px;
+    left: -45px;;
+    z-index: 1111;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+#book{
+    width: 100%;
+    background-color: rgb(224, 219, 219);
+    text-align: center;
+}
+
+.img-book{
+    width: 60%;
+}
+
+.gift{
+    border-top-style: dashed;
+    border-color: rgb(2, 182, 253);
+    background-color: rgb(253, 195, 5);
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+
+.gift-caption{
+    margin-top: 40px;
+    width: 100%;
+    padding: 3px 200px;
+    background-color: rgba(255, 103, 1, 0.562);
+    height: 25px;
+    /* box-shadow: inset 2px 3px 3px rgb(167, 166, 166); */
+}
+
+h2{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+.gift-tag{
+    position: absolute;
+    bottom: 1px;
+    background-color: rgb(253, 195, 5);
+    left: 20px;
+    height: 60px;
+    z-index: 111;
+}
+
+.tag{
+    width: 100px;
+    height: 70px;
+    padding-top: 10px;
+}
+
+
+
+.btn-warning{
+    height: 5%;
+    position: relative;
+    top:5px;
+    left:510px;
+    padding: 0rem .375rem;
+    font-size: 10px;
+}
+
+.fa-user{
+    position: relative;
+    left:520px;
+    top:2px;
+}
+
+.fa-shopping-cart{
+    position: relative;
+    left:535px;
+    top:2px;
+}
+
+#input{
+    position: relative;
+    left: 530px;
+    height: 15px;
+    width:100px;
+    font-size: 10px;
+}
+
+#navbar2{
+    margin-top: 20px;
+    background-color: rgb(179, 52, 52);
+    padding: 10px 0px 0px 0px;
+    height:5%;
+    align-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar{
+    padding-top:0rem;
+    padding-bottom:0rem;
+    text-align: center;
+}
+
+.container-fluid .navbar{
+    width: 100%;
+    position: relative;
+    left: -30px;
+    z-index: 1111;
+}
+
+
+
+ul .nav li a{
+    color: white;
+    position: relative;
+    top:-5px;
+}
+
+ul .nav li a:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width:2px;
+    height:50px;
+    background-color: white;
+    transform: translate(0,-50%);
+}
+
+ul .nav li .nav-service:first-child a:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 65px;
+    width:2px;
+    height:50px;
+    background-color: white;
+    transform: translate(0,-50%);
+}
+
+.img-logo{
+    height: 0px;
+    width:401px;
+    position: relative;
+    top:-160px;
+    left: -45px;;
+    z-index: 1111;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.book{
+    width: 100%;
+    background-color: rgb(224, 219, 219);
+    text-align: center;
+}
+
+.img-book{
+    width: 60%;
+}
+
+.gift{
+    border-top-style: dashed;
+    border-color: rgb(2, 182, 253);
+    background-color: rgb(253, 195, 5);
+    position: relative;
+    width: 100%;
+    height: 90px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.gift-caption{
+    margin-top: 40px;
+    width: 100%;
+    padding: 3px 140px;
+    background-color: rgba(255, 103, 1, 0.562);
+    height: 25px;
+    /* box-shadow: inset 2px 3px 3px rgb(167, 166, 166); */
+}
+
+h2{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+.gift-tag{
+    position: absolute;
+    width: 100px;
+    background-color: rgb(253, 195, 5);
+    left: 30px;
+    height: 85px;
+    z-index: 111;
+}
+
+.tag{
+    width: 100px;
+    height: 86px;
+}
+
+.instructions{
+    width: 100%;
+    background-color: rgb(224, 219, 219);
+    text-align: center;
+}
+
+.instruct-head{
+    color: red;
+    padding-top: 100px;
+}
+
+.instruct-info{
+    color: red;
+    font-weight: normal;
+}
+
+.steps-img{
+    width: 100%;
+}
+
+.offers .off{
+    background-color: rgb(206, 70, 70);
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+.off h1{
+    color: white;
+    position: absolute;
+    left: 25px;
+    line-height: 70px;
+    display: inline-block;
+}
+
+.image img{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+/* .offer-head img{
+     float: right;
+     width:500px;
+     height: 50px;
+     margin-top: 20px;
+} */
+
+.offer-section{
+    background: linear-gradient(to left, #ff6600 1%, #ff9900 63%);
+    width: 100%;
+    height: 540px;
+    position: relative;
+}
+
+
+.offer-section .services{
+    width: 200px;
+    height: 180px;
+    border-radius: 25px;
+    margin: 40px 62px;
+    padding: 0px 8px;
+    background-color: rgb(206, 70, 70);
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+
+.offer-section img{
+    width: 90px;
+    margin: 30px;
+}
+
+.services .services-caption{
+    margin-top: -20px;
+    padding: 0px 18px;
+}
+
+.services .services-caption p{
+    color: white;
+    font-size: 14px;
+}
+
+
+#our-story{
+    background: linear-gradient(to right, #ffffff 68%, #999966 234%);
+    height: 600px;
+}
+
+#our-story video{
+    margin: 93px;
+    border: 8px solid #ffefdb;
+    border-radius: 20px;
+}
+.video-bg{
+    background-image: url(./Gratefy/assets/images/eclipsenew.png);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: right;
+    background-position-y: inherit;
+}
+
+.story-caption{
+    margin: 100px 0px 0px 120px;
+}
+
+.story-caption h1{
+    color: rgb(206, 70, 70);
+}
+
+.story-caption p{
+    width: 100%;
+    color: rgb(206, 70, 70);
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#btn-story{
+    margin-top: 90px;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 12px;
+}
+
+.gift1{
+    background-color: rgb(224, 67, 31);
+    height: 70px;
+    position: relative;
+}
+
+.gift1 .gift1-img{
+    display: inline-block;
+    width: 100%;
+   
+}
+
+.gift1-img img{
+    width: 182px;
+    position: absolute;
+    left: -11px;
+    top: -89px;
+    clip: rect(88px 180px 180px 0px);
+}
+
+.gift1-title h4{
+    color: white;
+    position: absolute;
+    right: 50px;
+    line-height: 70px;
+    font-weight: 450;
+}
+
+.gift-categories .categoriesA{
+    background-color: orange;
+    height: 286px;
+    padding: 15px 9px;
+}
+
+.gift-categories .categoriesB{
+    background-color: rgb(255, 115, 0);
+    height: 286px;
+    padding: 15px 9px;
+}
+
+.gift-categories .categoriesA .occassions li, .gift-categories .categoriesB .occassions li{
+    list-style: none;
+    margin-left: 0px;
+}
+
+.categoriesA .categories-info, .categoriesB .categories-info{
+    background-color: white;
+    border-radius: 20px;
+    height: 258px;
+    padding: 35px;   
+}
+
+.categoriesA .categories-info h1, .categoriesA .categories-info .occassions li{
+    color: red;
+}
+
+
+.categoriesB .categories-info h1, .categoriesB .categories-info .occassions li{
+    color: rgb(255, 115, 0);
+}
+
+.fa-caret-down{
+    margin-right: 10px;
+}
+
+.categoriesA #img1{
+    background-image: url(./Gratefy/assets/images/eclipsenew.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: inherit;  
+}
+
+.categoriesB #img2{
+    background-image: url(./Gratefy/assets/images/eclipsenew.png);
+    background-repeat: no-repeat;
+    background-position: 266px;
+    background-position-y: 183px;
+    background-size: 57px;
+}
+
+.categoriesA #img3{
+    background-image: url(./Gratefy/assets/images/eclipsenew.png);
+    background-repeat: no-repeat;
+    background-position-x: 279px;
+    background-position-y: 18px;
+    background-size: 55px;
+}
+
+.categoriesB #img4{
+    background-image: url(./Gratefy/assets/images/eclipsenew.png);
+    background-repeat: no-repeat;
+    background-position-x: 258px;
+    background-position-y: 161px;
+}
+
+.campaign .campaign-header{
+    width: 100%;
+    height: 70px;
+    background-color: brown;
+}
+
+.campaign .campaign-header img{
+    width: 202px;
+    height: 74px;
+    position: relative;
+    left: 85%;
+    top: -5%;
+}
+
+.events{
+    background-color: rgb(255, 183, 20);
+    width: 100%;
+    height: 200px;
+    padding: 20px 22px;
+    background-image: url(./Gratefy/assets/images/Event.png);
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: -5px;
+    background-size: 195px;
+}
+
+.personal{
+    background-color: rgb(226, 225, 223);
+    width: 112.7%;
+    height: 200px;
+    padding: 35px 20px 35px 60px;
+}
+    
+.corporate{
+    background-color: rgb(160, 160, 160);
+    width: 112.5%;
+    height: 200px;
+    margin-left: 57px;
+    padding: 35px 20px 35px 60px;
+}
+
+.experience{
+    background-color: rgb(255, 160, 18);
+    width: 100%;
+    height: 200px;
+    padding: 20px 22px;
+    background-image: url(./Gratefy/assets/images/Yoga.png);
+    background-repeat: no-repeat;
+    background-position-x: 126px;
+    background-position-y: 0px;
+    background-size: 200px;
+}
+
+.fun{
+    background-color: rgb(93, 91, 89);
+    width: 112.7%;
+    height: 200px;
+    padding: 35px 20px 35px 60px;
+}
+
+.learning{
+    background-color: rgb(230, 124, 34);
+    width: 112.5%;
+    height: 200px;
+    margin-left: 57px;
+    padding: 35px 20px 35px 60px;
+}
+
+.events p{
+    color: rgb(199, 36, 36);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.personal h1{
+    margin-bottom: 16px;
+    color: rgb(199, 36, 36);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.corporate h1{
+    margin-bottom: 16px;
+    color: rgb(199, 36, 36);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.personal ul li, .experience ul li, .corporate ul li{
+    color: rgb(199, 36, 36);
+    font-size: 14px;
+    word-spacing: .3px;
+}
+
+.experience p{
+    margin-bottom: 16px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.fun h1{
+    margin-bottom: 16px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.learning h1{
+    margin-bottom: 16px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.experience ul li, .fun ul li, .learning ul li{
+    font-size: 14px;
+    word-spacing: .3px;
+}
+
+.white-cls{
+    color: #fff;
+}
+.info{
+    list-style: none;
+}
+
+.packages{
+    width: 100%;
+    height: 600px;
+}
+
+.packages-title{
+    background-color: rgb(224, 77, 43);
+    height: 70px;
+}
+
+.packages-title h4{
+    margin-top: 20px;
+    color: white;
+    font-weight: 450;
+    margin-left: 20px;
+}
+
+.packages-title .package-img img{
+    position: relative;
+    left: 355px;
+    width: 300px;
+    height: 70px;
+}
+
+.package-info{
+    width: 70%;
+    height: 380px;
+    margin: auto;
+    margin-top: 55px;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: -2px -1px 3px lightgrey;
+    background-image: url(./Gratefy/assets/images/eclipsenew.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 150px;
+    background-position-x: 820px;
+    background-position-y: 190px;
+}
+
+.img1{
+    height: 140px;
+}
+
+.img1 img{
+    width: 314.75px;
+    height: 140px;
+}
+
+.img1 h1{
+    position: relative;
+    bottom: 105px;
+    left: 40px;
+    color: white;
+}
+
+.img2{
+    height: 140px;
+}
+
+.img2 img{
+    width: 314.75px;
+    height: 140px;
+    position: relative;
+    bottom: 35px;
+    left: -1px;
+    z-index: -1;
+}
+
+.img2 h1{
+    position: relative;
+    bottom: 135px;
+    left: 40px;
+    color: rgb(224, 77, 43);
+}
+
+.img3{
+    height: 140px;
+}
+
+.img3 img{
+    width: 314.75px;
+    height: 140px;
+    position: relative;
+    bottom: 70px;
+    z-index: -111;
+}
+
+.img3 h1{
+    position: relative;
+    bottom: 160px;
+    left: 40px;
+    color: rgb(224, 77, 43);
+}
+
+.description h4{
+    margin: 80px 0px 0px 50px;
+    color: rgb(224, 77, 43);
+}
+
+.description p{  
+    width: 46%;
+    margin: 40px 0px 0px 50px;
+    color: rgb(224, 77, 43);
+    text-align: justify;
+    font-weight: 500;
+}
+
+.testimonial-header{
+    float: right;
+    color: rgb(224, 77, 43);
+}
