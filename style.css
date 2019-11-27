@@ -760,7 +760,66 @@ h2{
     font-weight: 500;
 }
 
-.testimonial-header{
+.testimonial-header h1{
     float: right;
     color: rgb(224, 77, 43);
+}
+
+.testimonials-info .testimonial-card{
+    width: 100%;
+    height: 500px;
+    background: url("./Gratefy/assets/images/page.png") no-repeat;
+    background-size: contain;
+}
+
+.testimonial-card img{
+    width: 90px;
+    position: relative;
+    left: 115px;
+    top: 70px;
+}
+
+.fa-star{
+    color: yellow;
+}
+
+.grey{
+    color: lightgrey;
+}
+
+.testimonial-card .details{
+    position: relative;
+    right: 40px;
+    top: 45px;
+}
+
+.testimonial-card .details p{
+    margin-top: 20px;
+    position: relative;
+    left: 155px;
+    font-size: 13px;
+    text-align: justify;
+    width: 245px;
+}
+
+#one{
+    position: relative;
+    right: 40px;
+    top: 140px;
+}
+
+#two{
+    position: relative;
+    right: 40px;
+    top: 25px;
+}
+
+#three{
+    position: relative;
+    right: 40px;
+    top: 65px;
+}
+
+.details .date{
+    color: rgb(44, 39, 39);
 }
