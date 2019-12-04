@@ -1,0 +1,198 @@
+#signup{
+    height: 875px;
+    background-image: url(./Gratefy/assets/images/Ellipse.png), url(./Gratefy/assets/images/nothome/Group\ 745.png);
+    background-repeat: no-repeat;
+    background-size: 230px, 150px;
+    background-position-x: 150px, 880px;
+    background-position-y: 640px, -60px;
+}
+
+.signup-box{
+    width: 60%;
+    height: 750px;
+    margin: auto;
+    position: relative;
+    top: 55px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px 4px lightgrey;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.user1{
+    margin-right: 5px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.signup-toggle{
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.signup-toggle .login{
+    width: 125px;
+    background-color: rgb(212, 212, 212);
+    list-style: none;
+    border-radius: 30px;
+    height: 50px;
+
+}
+
+.signup-toggle .login li {
+    color: black;
+    line-height: 48px;
+    font-size: 15px;
+    margin-right: 30px;
+    height: 50px;
+}
+
+.signup-toggle .SignUp{
+    width: 115px;
+    background-color: #f32e2e;
+    list-style: none;
+    border-radius: 30px;
+    height: 50px;
+    z-index: 111; 
+    position: relative;
+    right: 45px;
+}
+
+.signup-toggle .SignUp li {
+    color: white;
+    line-height: 48px;
+    font-size: 15px;
+    height: 50px;  
+}
+
+.login:hover, .SignUp:hover {
+    text-decoration: none;
+}
+
+.fa-user-plus {
+    margin-right: 3px;
+}
+
+.username{
+    display: inline-flex;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 55px;
+}
+
+.email{
+    display: inline-flex;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.dob{
+    display: inline-flex;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.password{
+    display: inline-flex;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.form-control{
+    border-radius: 1.25rem;
+}
+
+.input-icon{
+    position: relative;
+    right: 20px;
+    top: 10px;
+}
+
+input::placeholder{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.social-signup{
+    margin-top:70px
+}
+
+.facebook {
+    background-color: #4f4fab;
+    border-radius: 30px;
+    width: 270px;
+    border-color: white;
+    height: 45px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border-width: 0px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.fa-facebook{
+    position: relative;
+    right: 20px;
+    top: 2px;
+}
+
+.facebook .fa{
+    font-size: 1.5rem;
+}
+
+.google {
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 270px;
+    height: 45px;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    border : 1px solid #dddddd;
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+#google-img{
+    width: 30px;
+    position: relative;
+    top: -1px;
+    right: 20px;
+}
+
+button:focus {
+    outline: none;
+    outline: none;
+}
+
+.t_c{
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.t_c p{
+    color: #26b2ea;
+    margin-bottom: 0px;
+}
+
+.t_c #terms{
+    color: rgb(255, 212, 0);
+    text-decoration: underline;
+}
+
+.submit{
+    margin-top: 50px;
+    width: 125px;
+    border-radius: 30px;
+    background-color: #f73131;
+    border-style: none;
+    height: 45px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}

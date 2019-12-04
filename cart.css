@@ -1,0 +1,313 @@
+.cart{
+    margin-top: 50px;
+}
+
+#language{
+    border: none;
+    float: right;
+}
+
+#languagae:focus {
+    outline: none;
+}
+
+#currency{
+    border: none;
+}
+
+.profile{
+    float: right;
+    position: relative;
+    right: 50px;
+}
+
+.items-count{
+    display: inline-flex;
+}
+
+.items-count span{
+    position: relative;
+    left: 10px;
+    bottom: 2px;
+    color: grey;
+}
+
+.cart-section{
+    margin-top: 50px;
+}
+
+.section{
+    display: inline-flex;
+    margin-bottom: 2rem;
+}
+
+.section .list{
+    list-style: none;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    color: grey;
+}
+
+.section #first{
+    color: red;
+}
+
+.product-path{
+    background-color: #d81111;
+    width: 100%;
+}
+
+.product-path #path{
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    height: 35px;
+    line-height: 50px;
+}
+
+.product-path #path span{
+    font-size: 13px;
+    position: relative;
+    top: 2px;
+}
+
+.cart-product{
+    width: 100%;
+    height: 596px;
+}
+
+.product-table{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.table th{
+    padding-bottom: 20px;
+    border :none
+}
+
+.table .sr-name{
+    position: relative;
+    left: 60px;
+}
+
+.table .specifications{
+    list-style: none;
+    display: inline-flex;
+}
+
+.specifications li{
+    padding: 0px 55px;
+}
+
+.prod button{
+    height: 15px;
+    border-radius: 10px;
+    border: none;
+    width:15px;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.prod button img{
+    width: 9px;
+    position: relative;
+    bottom: 7px;
+}
+
+.prod button:focus{
+    outline: none;
+}
+
+.prod .prod-img{
+    position: relative;
+    left: 15px;
+    top: 45px;
+}
+
+.prod .prod-name{
+    position: relative;
+    left: 190px;
+    bottom: 30px;
+    font-size: 13px;
+}
+
+.price{
+    position: relative;
+    top: 98px;
+    left: 46px;
+}
+
+.quantity{
+    display: inline-flex;
+    position: relative;
+    top: 88px;
+    left: 3px;
+}
+
+.quantity .btn1{
+    height: 40px;
+    width: 35px;
+    font-size: 15px;
+    border: .5px solid lightgrey;
+    color: #02b5ff;
+    font-weight: 900;
+}
+
+.btn1:focus{
+    outline: none;
+}
+
+.quantity #count{
+    width: 35px;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+.btn2{
+    height: 40px;
+    width: 35px;
+    font-size: 15px;
+    border: 1px solid lightgrey;
+    color: #02b5ff;
+    font-weight: 900;
+}
+
+.btn2:focus{
+    outline: none;
+}
+
+.unit-price{
+    position: relative;
+    top: 97px;
+    right: 28px;
+}
+
+.payment{
+    width: 75%;
+    margin: auto;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.voucher{
+    display: inline-flex;
+    height: 50px;
+}
+
+.form-control{
+    width: 75%;
+    padding: .75rem .75rem;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.voucher button{
+    background-color: #ef1919;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+    position: relative;
+    right: 105px;
+    width: 104px;
+    color: white;
+}
+
+.voucher button:focus{
+    outline: none;
+}
+
+.payment-details{
+    width: 70%;
+}
+
+.payment-menu{
+    width: 70%;
+    float: right;
+}
+
+.payment-menu .worth h6{
+    float: right;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    padding: 15px 0px;
+}
+
+.total-price h5{
+    float: right;
+}
+
+.check-out{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ef1919;
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+}
+
+
+.imgs{
+    margin-top: 40px;
+    width: 75%;
+}
+
+.imgs img{
+    margin: 0px 6px;
+    width: 45px;
+    height: 30px;
+}
+
+.imgs .img4{
+    margin-right: 0px;
+}
+
+.contact{
+    height: 260px;
+}
+
+.contact .follow{
+    margin: auto;
+    margin-top: 50px;
+}
+
+.social p{
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.contact-us .one{
+    margin-top: 30px;
+}
+
+.contact-us p{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-twitter{
+    color: #55acee;
+    margin-left: 30px;
+}
+
+.deco{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.deco img{
+    width: 70px;
+}
+

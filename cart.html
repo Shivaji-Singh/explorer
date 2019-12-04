@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MyCart</title>
+</head>
+
+<body>
+
+    <div class="container-fluid" style="padding: 0px;">
+        <div class="navbar">
+            <div class="row">
+                <div class=" col-12">
+                    <ul class="nav" style="margin-left: 45px;">
+                        <button class="btn btn-warning">Login / Sign Up</button>
+                        <li><i class="fa fa-user"></i></li>
+                        <li><input type="text" id="input" placeholder="Search" /> </li>
+                        <li><i class="fa fa-shopping-cart"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" col-12 justify-content-center" id="navbar2">
+            <ul class="navbar ">
+                <ul class="nav" style="margin-left: 380px;">
+                    <li class="nav-service li-marg">
+                        <a href="#" class="nav-link">Shop</a>
+                    </li>
+                    <li class="nav-service">
+                        <a href="#" class="nav-link">Express Delivery</a>
+                    </li>
+                    <li class="nav-service">
+                        <a href="#" class="nav-link">Annual Plan</a>
+                    </li>
+                    <li class="nav-service">
+                        <a href="#" class="nav-link">Advisory</a>
+                    </li>
+                    <li class="nav-service">
+                        <a href="#" class="nav-link">Join Us</a>
+                    </li>
+                    <li class="nav-service">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!-- <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#"><span class="navbar-toggler-icon"></span></button> -->
+            </ul>
+        </div>
+        <div class="img-logo">
+            <a href="./index.html"><img src="./Gratefy/assets/images/mainlogo.png" class="img" alt="logo"></a>
+        </div>
+        <div class="cart">
+            <div class="row m-0">
+                <div class="col-md-6 pr-0 pl-0">
+                    <div class="row m-0">
+                        <div class="col-6 pr-0 pl-0">
+                            <select name="languages" id="language">
+                                <option value="English">EN</option>
+                                <option value="Espanol">ES</option>
+                                <option value="Chinese">CH</option>
+                                <option value="Korean">KR</option>
+                                <option value="Japanese">JP</option>
+                            </select>
+                        </div>
+                        <div class="col-6 pr-0 pl-0">
+                            <select name="currency" id="currency">
+                                <option value="Rupee">USD</option>
+                                <option value="Dollar">INR</option>
+                                <option value="Euro">GBR</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pr-0 pl-0">
+                    <div class="row m-0">
+                        <div class="col-6 pr-0 pl-0">
+                            <h6 class="profile"><i class="fa fa-user-o"></i> My profile</h6>
+                        </div>
+                        <div class="col-6 pr-0 pl-0 items-count">
+                            <h6><i class="fa fa-cart-plus"></i> 0 items</h6>
+                            <span>$0.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="cart-section">
+                <div class="row m-0">
+                    <div class="col-md-12 pr-0 pl-0 text-center">
+                        <ul class="section">
+                            <li class="list" id="first">My cart</li>
+                            <li class="list">Messages</li>
+                            <li class="list">Events</li>
+                            <li class="list">Experiences</li>
+                            <li class="list">Schedule</li>
+                            <li class="list">Settings</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product-path">
+                <div class="row m-0">
+                    <div class="col-md-12 pl-0 pr-0 text-center">
+                        <p id="path">Home &nbsp;&nbsp;/&nbsp;&nbsp; Accessories &nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                            <span>Beat bolo2 on Ear Headphones - Black</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-product">
+                <div class="row m-0 ">
+                    <div class="col-md-9 pl-0 pr-0 product-table">
+                        <table class="table mb-0">
+                            <thead>
+                                <tr class="row m-0">
+                                    <th class="col-6 pr-0 pl-0">
+                                        <p class="sr-name">PRODUCT</p>
+                                    </th>
+                                    <th class="col-6 pr-0 pl-0">
+                                        <ul class="specifications">
+                                            <li>PRICE</li>
+                                            <li>QTY</li>
+                                            <li>UNIT PRICE</li>
+                                        </ul>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="row m-0" style="height: 190px;">
+                                    <th class="col-6 p-0 prod" scope="row">
+                                        <button><img src="./Gratefy/assets/images/nothome/remove.png" alt=""></button>
+                                        <img src="./Gratefy/assets/images/nothome/pic.png" alt="" class="prod-img">
+                                        <h6 class="prod-name">Philips Hue 7W BH30 Connected downlight Lamp</h6>
+                                    </th>
+                                    <th class="col-6 p-0">
+                                        <div class="row m-0">
+                                            <div class="col-4 price">
+                                                <h6>$998</h6>
+                                            </div>
+                                            <div class="col-4 p-0 quantity">
+                                                <button class="btn1">-</button>
+                                                <p id="count">1</p>
+                                                <button class="btn2">+</button>
+                                            </div>
+                                            <div class="col-4 p-0 unit-price text-center">
+                                                <h6>$499</h6>
+                                            </div>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th class="row m-0 pr-0 pl-0 pb-0">
+                                        <div class="col-md-12 p-0">
+                                            <hr style="margin-bottom: 0px;">
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr class="row m-0" style="height: 190px;">
+                                    <th class="col-6 p-0 prod" scope="row">
+                                        <button><img src="./Gratefy/assets/images/nothome/remove.png" alt=""></button>
+                                        <img src="./Gratefy/assets/images/nothome/pic-1.png" alt="" class="prod-img">
+                                        <h6 class="prod-name">Apple Mackbook Pro</h6>
+                                    </th>
+                                    <th class="col-6 p-0">
+                                        <div class="row m-0">
+                                            <div class="col-4 price">
+                                                <h6>$998</h6>
+                                            </div>
+                                            <div class="col-4 p-0 quantity">
+                                                <button class="btn1">-</button>
+                                                <p id="count">1</p>
+                                                <button class="btn2">+</button>
+                                            </div>
+                                            <div class="col-4 p-0 unit-price text-center">
+                                                <h6>$499</h6>
+                                            </div>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th class="row m-0 pr-0 pl-0 pb-0">
+                                        <div class="col-md-12 p-0">
+                                            <hr style="margin: 0px;">
+                                        </div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="payment">
+                <div class="row m-0">
+                    <div class="col-6 pr-0 pl-0 voucher">
+                        <input type="text" placeholder="Voucher code" class="form-control">
+                        <button>Redeem</button>
+                    </div>
+                    <div class="col-6 pr-0 pl-0 payment-details">
+                        <div class="row m-0 payment-menu">
+                            <div class="col-6 p-0 categories">
+                                <h6>Subtotal</h6>
+                            </div>
+                            <div class="col-6 p-0 worth">
+                                <h6>$998</h6>
+                            </div>
+                            <div class="col-6 p-0 categories">
+                                <h6>Shipping fee</h6>
+                            </div>
+                            <div class="col-6 p-0 worth">
+                                <h6>$20</h6>
+                            </div>
+                            <div class="col-6 p-0 categories">
+                                <h6>Coupon</h6>
+                            </div>
+                            <div class="col-6 p-0 worth">
+                                <h6>N/A</h6>
+                            </div>
+                            <div class="col-12 p-0 ">
+                                <hr>
+                            </div>
+                            <div class="col-6 p-0 ">
+                                <h4>TOTAL</h4>
+                            </div>
+                            <div class="col-6 p-0 total-price">
+                                <h5>$1118</h5>
+                            </div>
+                            <div class="col-12 p-0">
+                                <button class="form-control check-out">Check Out</button>
+                            </div>
+                            <div class="col-4 p-0"></div>
+                            <div class="col-8 p-0 imgs">
+                                <img src="./Gratefy/assets/images/nothome/Western-union.png" alt="" class="img1">
+                                <img src="./Gratefy/assets/images/nothome/Group 19 (2).png" alt="" class="img2">
+                                <img src="./Gratefy/assets/images/nothome/Paypal (2).png" alt="" class="img3">
+                                <img src="./Gratefy/assets/images/nothome/Shape 327 (2).png" alt="" class="img4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="contact">
+                <div class="row m-0">
+                    <div class="col-6 p-0 follow">
+                        <div class="row m-0">
+                            <div class="col-5 p-0 social">
+                                <h6>Follow Us</h6>
+                                <p>Since the 1500s, when a unknown printer took a gallery of type and assembeled.</p>
+                                <p><i class="fa fa-facebook fa-2x"></i> <i class="fa fa-twitter fa-2x"></i></p>
+                            </div>
+                            <div class=" col-2 p-0">
+                            </div>
+                            <div class="col-5 p-0 contact-us">
+                                <h6>Contact Us</h6>
+                                <p class="one">My Company, 4578 Mamosa Road, Glassgoan</p>
+                                <p>DO4 EDGR</p>
+                                <p>Call us now : 0123-456-789</p>
+                                <p>Email : support@whatever.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin-bottom: 0px;">
+            <div class="deco">
+                <img src="./Gratefy/assets/images/Ellipse.png" alt="">
+            </div>
+            <div class="line">
+                <div class="row m-0">
+                    <div class="col-md-5" style="border-top: 2px solid brown;"></div>
+                    <div class="col-md-5" style="border-top: 2px solid brown;position: relative;left: 225px;"></div>
+                </div>
+            </div>
+            <div class="footer text-center">
+                <div class="row m-0">
+                    <div class="col-md-4 pr-0 pl-0 product-categories" id="first-category">
+                        <h6>Product Categories</h6>
+                        <ul class="categories">
+                            <li>Professional</li>
+                            <li>Components</li>
+                            <li>Consumer</li>
+                            <li>Enterprise</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 pr-0 pl-0 product-categories">
+                        <h6>Product Categories</h6>
+                        <ul class="categories">
+                            <li>Professional</li>
+                            <li>Components</li>
+                            <li>Consumer</li>
+                            <li>Enterprise</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 pr-0 pl-0 product-categories" id="third-category">
+                        <h6>Product Categories</h6>
+                        <ul class="categories">
+                            <li>Professional</li>
+                            <li>Components</li>
+                            <li>Consumer</li>
+                            <li>Enterprise</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
