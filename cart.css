@@ -1,5 +1,6 @@
 .cart{
     margin-top: 50px;
+    height: 100%;
 }
 
 #language{
@@ -103,24 +104,27 @@
     padding: 0px 55px;
 }
 
-.prod button{
+.prod .remove{
     height: 15px;
-    border-radius: 10px;
-    border: none;
-    width:15px;
+    border: 1px solid rgb(104, 102, 102);
+    width:75px;
+    height: 30px;
     position: relative;
     top: 50px;
     cursor: pointer;
     background-color: transparent;
+    font-size: 13px;
+    color: black;
+
 }
 
-.prod button img{
+/* .prod .remove img{
     width: 9px;
     position: relative;
     bottom: 7px;
-}
+} */
 
-.prod button:focus{
+.prod .remove:focus{
     outline: none;
 }
 
@@ -132,7 +136,7 @@
 
 .prod .prod-name{
     position: relative;
-    left: 190px;
+    left: 230px;
     bottom: 30px;
     font-size: 13px;
 }
@@ -157,13 +161,21 @@
     border: .5px solid lightgrey;
     color: #02b5ff;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .btn1:focus{
     outline: none;
 }
 
-.quantity #count{
+.quantity #count1{
+    width: 35px;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+.quantity #count2{
     width: 35px;
     text-align: center;
     position: relative;
@@ -177,6 +189,7 @@
     border: 1px solid lightgrey;
     color: #02b5ff;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .btn2:focus{
@@ -192,7 +205,7 @@
 .payment{
     width: 75%;
     margin: auto;
-    height: 500px;
+    height: 475px;
     margin-top: 100px;
 }
 
@@ -237,7 +250,7 @@
     float: right;
     font-size: 13px;
     letter-spacing: 0.4px;
-    padding: 15px 0px;
+    padding: 0px 0px 25px 0px;
 }
 
 .total-price h5{

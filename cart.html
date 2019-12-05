@@ -134,9 +134,9 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="row m-0" style="height: 190px;">
-                                    <th class="col-6 p-0 prod" scope="row">
-                                        <button><img src="./Gratefy/assets/images/nothome/remove.png" alt=""></button>
+                                <tr class="row m-0 cart" style="height: 190px;">
+                                    <th class="col-6 p-0 prod">
+                                        <button class="remove">Remove</button>
                                         <img src="./Gratefy/assets/images/nothome/pic.png" alt="" class="prod-img">
                                         <h6 class="prod-name">Philips Hue 7W BH30 Connected downlight Lamp</h6>
                                     </th>
@@ -146,9 +146,9 @@
                                                 <h6>$998</h6>
                                             </div>
                                             <div class="col-4 p-0 quantity">
-                                                <button class="btn1">-</button>
-                                                <p id="count">1</p>
-                                                <button class="btn2">+</button>
+                                                <button class="btn1" onclick="sub('count1')">-</button>
+                                                <p id="count1">0</p>
+                                                <button class="btn2" onclick="add('count1')">+</button>
                                             </div>
                                             <div class="col-4 p-0 unit-price text-center">
                                                 <h6>$499</h6>
@@ -163,9 +163,9 @@
                                         </div>
                                     </th>
                                 </tr>
-                                <tr class="row m-0" style="height: 190px;">
-                                    <th class="col-6 p-0 prod" scope="row">
-                                        <button><img src="./Gratefy/assets/images/nothome/remove.png" alt=""></button>
+                                <tr class="row m-0 cart" style="height: 190px;">
+                                    <th class="col-6 p-0 prod">
+                                        <button class="remove">Remove</button>
                                         <img src="./Gratefy/assets/images/nothome/pic-1.png" alt="" class="prod-img">
                                         <h6 class="prod-name">Apple Mackbook Pro</h6>
                                     </th>
@@ -175,16 +175,19 @@
                                                 <h6>$998</h6>
                                             </div>
                                             <div class="col-4 p-0 quantity">
-                                                <button class="btn1">-</button>
-                                                <p id="count">1</p>
-                                                <button class="btn2">+</button>
+                                                <button class="btn1" onclick="sub('count2')">-</button>
+                                                <p id="count2">0</p>
+                                                <button class="btn2" onclick="add('count2')">+</button>
                                             </div>
                                             <div class="col-4 p-0 unit-price text-center">
                                                 <h6>$499</h6>
                                             </div>
                                         </div>
+
                                     </th>
+
                                 </tr>
+
                                 <tr>
                                     <th class="row m-0 pr-0 pl-0 pb-0">
                                         <div class="col-md-12 p-0">
@@ -311,4 +314,5 @@
                 </div>
             </div>
         </div>
+        <script src="./cart.js"></script>
     </div>

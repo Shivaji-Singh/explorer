@@ -163,6 +163,10 @@ h2{
     border: none;
 }
 
+.btn:focus, .warning:focus{
+    outline: none;
+}
+
 .fa-user{
     position: relative;
     left:520px;
