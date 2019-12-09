@@ -7,7 +7,7 @@
 .product-img{
     background-color: rgb(228, 228, 228);
     width: 100%;
-    height: 600px;
+    height: 610px;
     border-radius: 15px;
     box-shadow: 0px 0px 5px lightgrey;
     border-radius: 15px;
@@ -22,16 +22,16 @@
 .image2{
     position: relative;
     right: 80px;
-    bottom: 60px;
+    bottom: 80px;
     width: 123px;
-    height: 105px;
+    height: 130px;
 }
 
 .image3{
     position: relative;
     width: 123px;
-    height: 105px;
-    bottom: 60px;
+    height: 130px;
+    bottom: 80px;
     right: 76px;
 }
 
@@ -44,7 +44,7 @@
     background-size: 145px,50px;
     background-repeat: no-repeat;
     background-position-x: 280px,328px;
-    background-position-y: 59px,72px;
+    background-position-y: 25px,57px;
     background-blend-mode: color;
     opacity: 0.5;
     width: 100%;
@@ -52,7 +52,7 @@
 }
 
 .product-info{
-    height: 600px;
+    height: 610px;
     box-shadow: 0px 0px 5px lightgrey;
     border-radius: 15px;
 }
@@ -182,4 +182,64 @@ hr{
     margin-top: 30px;
 }
 
-.scheddule
+/* .imp-btns{
+    float: right;
+} */
+
+.schedule {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 6px 60px;
+    border-radius: 20px;
+    height: 36px;
+    margin: 0px 9px;
+    text-transform: uppercase;
+}
+
+.wishlist{
+    background-color: #e2dcdc;
+    border: none;
+    color: black;
+    font-size: 11px;
+    padding: 6px 60px;
+    border-radius: 20px;
+    height: 36px;
+    margin: 0px 9px;
+    text-transform: uppercase;
+}
+
+.add-to-cart{
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 11px;
+    padding: 6px 60px;
+    border-radius: 20px;
+    height: 36px;
+    margin: 0px 9px;
+    text-transform: uppercase;
+}
+
+.fa-shopping-cart{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.fa-heart-o:before {
+    content: "\f08a";
+    position: relative;
+    right: 10px;
+    top: 2px;
+    font-size: 15px;
+}
+
+.fa-shopping-cart:before {
+    content: "\f08a";
+    position: relative;
+    right: 10px;
+    top: 2px;
+    font-size: 15px;
+}
