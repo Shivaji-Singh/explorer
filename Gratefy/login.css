@@ -1,0 +1,611 @@
+.cont{
+    text-align: -webkit-center;
+    text-align: -ie-center;
+    text-align: -o-center;
+    text-align: -moz-center;
+}
+
+@media (max-width:1920px){
+
+    .liwf{
+        background-color: #35589d;
+                            color: #fff;
+                            width: 265px;
+                            height: 39px;
+    }
+    .liwg{
+        width: 265px;
+                            height: 39px;
+                            background-color: lightgrey;
+    }
+    .cardmain{
+        height: auto;
+    margin-top: -46px;
+    width: 800px;
+    background-color: #fff;
+    }
+    .gol img{
+        position: relative;
+        width: 195px;
+        margin-left: 34%;
+        margin-top: -48px;
+        /* float: right; */
+        z-index: -1111111111;
+    }
+    .elimg{
+        float: left;
+        width: 319px;
+        margin-top: -226px;
+        position: relative;
+        z-index: -1;
+        margin-left: 321px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .imglogo img{
+        width: 409px;
+        margin-left: -65px;
+        margin-top: -53px;
+    }
+    .navbar-header{
+        z-index: 11111;
+        position: absolute;
+    }
+    .header2{
+        background-color: #a24c4c;
+        margin-top: -34px;
+        position: absolute;
+        width: 100%;
+        height: 56px;
+    }
+    .header2 li a{
+        color: #fff;
+        border-left: 1px solid #fb8500;
+    }
+    .header2 .lasta{
+        border-right: 1px solid #fb8500;
+    }
+    /* .header2 li :nth-child(1){
+        margin-left:20%;
+    } */
+    .btn{
+        background-color: #ee6700;
+        color: #fff;
+        height: 18px;
+        width: 107px;
+        font-size: 8px;
+    }
+    .header1{
+        width: 100%;
+        position: relative;
+        /* margin-left: 37%; */
+        margin-bottom: 6px;
+        margin-top: 2px;
+    }
+    .header1 button{
+        height: 25px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        background-color: #ee6700;
+        color: white;
+    }
+    .user{
+        margin-top: 2px;
+    font-size: 20px;
+    }
+    .header1 input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 23px;
+        margin-top: 1px;
+        border-bottom-color: #ee6700;
+        background: none;
+    }
+    .header1 li{
+        margin : 0 9px;
+    }
+    .login{
+        text-align: -webkit-center;
+        text-align: -moz-center;
+        text-align: -o-center;
+        text-align: -ie-center;
+        padding: 0px;
+        width: 24%;
+        margin-left: 68px;
+    }
+    .login2{
+        margin-left: -197px;
+        width: 72%;
+    }
+    .hr{
+        width: 100%;
+        margin-top: 43px;
+    }
+    }
+    
+    @media (max-width:1440px){
+        .liwf{
+            background-color: #35589d;
+                                color: #fff;
+                                width: 265px;
+                                height: 39px;
+        }
+        .liwg{
+            width: 265px;
+                                height: 39px;
+                                background-color: lightgrey;
+        }
+        .cardmain{
+            height: auto;
+            margin-top: -46px;
+            width: 685px;
+            background-color: #fff;
+        }
+        .gol img{
+            position: relative;
+            width: 195px;
+            margin-left: 38%;
+            margin-top: -48px;
+            /* float: right; */
+            z-index: -1111111111;
+        }
+        .elimg{
+            float: left;
+            width: 313px;
+            margin-top: -209px;
+            position: relative;
+            z-index: -1;
+            margin-left: 144px;
+        }
+        
+    body{
+        overflow-x: hidden;
+    }
+    .imglogo img{
+        width: 354px;
+        margin-left: -67px;
+        margin-top: -47px;
+    }
+    .navbar-header{
+        z-index: 11111;
+        position: absolute;
+    }
+    .header2{
+        background-color: #a24c4c;
+        margin-top: -34px;
+        position: absolute;
+        width: 100%;
+        height: 51px;
+    }
+    .header2 li a{
+        color: #fff;
+        border-left: 1px solid #fb8500;
+    }
+    .header2 .lasta{
+        border-right: 1px solid #fb8500;
+    }
+    /* .header2 li :nth-child(1){
+        margin-left:20%;
+    } */
+    .btn{
+        background-color: #ee6700;
+        color: #fff;
+        height: 18px;
+        width: 107px;
+        font-size: 8px;
+    }
+    .header1{
+        width: 100%;
+        position: relative;
+        /* margin-left: 37%; */
+        margin-bottom: 6px;
+        margin-top: 2px;
+    }
+    .header1 button{
+        height: 25px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        background-color: #ee6700;
+        color: white;
+    }
+    .user{
+        margin-top: 2px;
+    font-size: 20px;
+    }
+    .header1 input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 23px;
+        margin-top: 1px;
+        border-bottom-color: #ee6700;
+        background: none;
+    }
+    .header1 li{
+        margin : 0 9px;
+    }
+        .login{
+            text-align: -webkit-center;
+            text-align: -moz-center;
+            text-align: -o-center;
+            text-align: -ie-center;
+            padding: 0px;
+            width: 32%;
+            margin-left: 0px;
+        }
+        .login2{
+            margin-left: -48px;
+            width: 83%;
+        }
+        .hr{
+            width: 100%;
+            margin-top: 34px;
+        }
+    }
+    
+    @media (max-width:1370px){
+        .liwf{
+            background-color: #35589d;
+                                color: #fff;
+                                width: 265px;
+                                height: 39px;
+        }
+        .liwg{
+            width: 265px;
+                                height: 39px;
+                                background-color: lightgrey;
+        }
+        .cardmain{
+            height: auto;
+            margin-top: -46px;
+            width: 665px;
+            background-color: #fff;
+        }
+        .gol img{
+            position: relative;
+            width: 192px;
+            margin-left: 38%;
+            margin-top: -47px;
+            /* float: right; */
+            z-index: -1111111111;
+        }
+        .elimg{
+            float: left;
+            width: 286px;
+            margin-top: -209px;
+            position: relative;
+            z-index: -1;
+            margin-left: 126px;
+        }
+    body{
+        overflow-x: hidden;
+    }
+    .imglogo img{
+        width: 356px;
+        margin-left: -64px;
+        margin-top: -47px;
+    }
+    .navbar-header{
+        z-index: 11111;
+        position: absolute;
+    }
+    .header2{
+        background-color: #a24c4c;
+        margin-top: -34px;
+        position: absolute;
+        width: 100%;
+        height: 51px;
+    }
+    .header2 li a{
+        color: #fff;
+        border-left: 1px solid #fb8500;
+    }
+    .header2 .lasta{
+        border-right: 1px solid #fb8500;
+    }
+    /* .header2 li :nth-child(1){
+        margin-left:20%;
+    } */
+    .btn{
+        background-color: #ee6700;
+        color: #fff;
+        height: 18px;
+        width: 107px;
+        font-size: 8px;
+    }
+    .header1{
+        width: 100%;
+        position: relative;
+        /* margin-left: 37%; */
+        margin-bottom: 6px;
+        margin-top: 2px;
+    }
+    .header1 button{
+        height: 25px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        background-color: #ee6700;
+        color: white;
+    }
+    .user{
+        margin-top: 2px;
+    font-size: 20px;
+    }
+    .header1 input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 23px;
+        margin-top: 1px;
+        border-bottom-color: #ee6700;
+        background: none;
+    }
+    .header1 li{
+        margin : 0 9px;
+    }
+        .login{
+            text-align: -webkit-center;
+            text-align: -moz-center;
+            text-align: -o-center;
+            text-align: -ie-center;
+            padding: 0px;
+            width: 33%;
+            margin-left: 0px;
+        }
+        .login2{
+            margin-left: -48px;
+            width: 5884
+        }
+        .hr{
+            width: 100%;
+            margin-top: 37px;
+        }
+    }
+    
+    @media (max-width:1280px){
+        .liwf{
+            background-color: #35589d;
+                                color: #fff;
+                                width: 239px;
+                                height: 39px;
+        }
+        .liwg{
+            width: 237px;
+                                height: 39px;
+                                background-color: lightgrey;
+        }
+        .cardmain{
+            height: auto;
+            margin-top: -46px;
+            width: 623px;
+            background-color: #fff;
+        }
+        .gol img{
+            position: relative;
+            width: 174px;
+            margin-left: 38%;
+            margin-top: -48px;
+            /* float: right; */
+            z-index: -1111111111;
+        }
+        .elimg{
+            float: left;
+            width: 256px;
+            margin-top: -183px;
+            position: relative;
+            z-index: -1;
+            margin-left: 127px;
+        }
+    body{
+        overflow-x: hidden;
+    }
+    .imglogo img{
+        width: 334px;
+        margin-left: -60px;
+        margin-top: -43px;
+    }
+    .navbar-header{
+        z-index: 11111;
+        position: absolute;
+    }
+    .header2{
+        background-color: #a24c4c;
+        margin-top: -34px;
+        position: absolute;
+        width: 100%;
+        height: 51px;
+    }
+    .header2 li a{
+        color: #fff;
+        border-left: 1px solid #fb8500;
+    }
+    .header2 .lasta{
+        border-right: 1px solid #fb8500;
+    }
+    /* .header2 li :nth-child(1){
+        margin-left:20%;
+    } */
+    .btn{
+        background-color: #ee6700;
+        color: #fff;
+        height: 18px;
+        width: 107px;
+        font-size: 8px;
+    }
+    .header1{
+        width: 100%;
+        position: relative;
+        /* margin-left: 37%; */
+        margin-bottom: 6px;
+        margin-top: 2px;
+    }
+    .header1 button{
+        height: 20px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        background-color: #ee6700;
+        color: white;
+    }
+    .user{
+        margin-top: 2px;
+    font-size: 20px;
+    }
+    .header1 input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 20px;
+        margin-top: 1px;
+        border-bottom-color: #ee6700;
+        background: none;
+    }
+    .header1 li{
+        margin : 0 9px;
+    }
+        .login{
+            text-align: -webkit-center;
+            text-align: -moz-center;
+            text-align: -o-center;
+            text-align: -ie-center;
+            padding: 0px;
+            width: 36%;
+            margin-left: 0px;
+        }
+        .login2{
+            margin-left: -48px;
+            width: 90%;
+        }
+        .hr{
+            width: 100%;
+            margin-top: 30px;
+        }
+    }
+    
+    @media (max-width:1080px){
+        .liwf{
+            background-color: #35589d;
+                                color: #fff;
+                                width: 200px;
+                                height: 39px;
+        }
+        .liwg{
+            width: 200px;
+                                height: 39px;
+                                background-color: lightgrey;
+        }
+        .cardmain{
+            height: auto;
+            margin-top: -46px;
+            width: 596px;
+            background-color: #fff;
+        }
+        .gol img{
+            position: relative;
+            width: 165px;
+            margin-left: 43%;
+            margin-top: -48px;
+            /* float: right; */
+            z-index: -1111111111;
+        }
+        .elimg{
+            float: left;
+            width: 220px;
+            margin-top: -158px;
+            position: relative;
+            z-index: -1;
+            margin-left: 65px;
+        }
+        body{
+            overflow-x: hidden;
+        }
+        .imglogo img{
+            width: 288px;
+            height: 163px;
+            margin-left: -55px;
+            margin-top: -41px;
+        }
+        .navbar-header{
+            z-index: 11111;
+            position: absolute;
+        }
+        .header2{
+            background-color: #a24c4c;
+            margin-top: -34px;
+            position: absolute;
+            width: 100%;
+            height: 51px;
+        }
+        .header2 li a{
+            color: #fff;
+            border-left: 1px solid #fb8500;
+        }
+        .header2 .lasta{
+            border-right: 1px solid #fb8500;
+        }
+        /* .header2 li :nth-child(1){
+            margin-left:20%;
+        } */
+        .btn{
+            background-color: #ee6700;
+            color: #fff;
+            height: 18px;
+            width: 107px;
+            font-size: 8px;
+        }
+        .header1{
+            width: 100%;
+            position: relative;
+            /* margin-left: 37%; */
+            margin-bottom: 6px;
+            margin-top: 2px;
+        }
+        .header1 button{
+            height: 18px;
+            font-size: 13px;
+            border: none;
+            border-radius: 4px;
+            background-color: #ee6700;
+            color: white;
+            margin-top: 3px;
+        }
+        .user{
+            margin-top: 2px;
+        font-size: 20px;
+        }
+        .header1 input{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            height: 18px;
+            margin-top: 1px;
+            border-bottom-color: #ee6700;
+            background: none;
+        }
+        .header1 li{
+            margin : 0 9px;
+        }
+        .login{
+            text-align: -webkit-center;
+            text-align: -moz-center;
+            text-align: -o-center;
+            text-align: -ie-center;
+            padding: 0px;
+            width: 392px;
+            margin-left: -13px;
+        }
+        .login2{
+            margin-left: -17px;
+            width: 94%;
+        }
+        .hr{
+            width: 100%;
+            margin-top: 28px;
+        }
+    }
+    

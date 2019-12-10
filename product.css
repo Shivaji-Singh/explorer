@@ -1,6 +1,6 @@
 .product{
     width: 100%;
-    height: 600px;
+    height: 60px;
     margin-top: 40px;
 }
 
@@ -242,4 +242,152 @@ hr{
     right: 10px;
     top: 2px;
     font-size: 15px;
+}
+
+.similar-items{
+    margin-top: 100px;
+}
+
+.similar-items h1{
+    color: gray;
+    font-weight: 400;
+}
+
+.similar-items-info{
+    margin-top: 20px;
+    padding: 0px 40px;
+}
+
+.similar-items-info .items{
+    border: 1px solid rgb(243,243,243);
+    height: 375px;
+}
+
+.items img{
+    padding: 15px 33px;
+}
+
+.rate{
+    margin-left: 15px;
+}
+
+.rate .fa-star{
+    color: yellow;
+}
+
+.rate .grey{
+    color: lightgray;
+}
+
+.items h6{
+    margin-top: 10px;
+    letter-spacing: .4px;
+    word-spacing: 1px;
+    margin-left: 15px;
+}
+
+.items h4{
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.customer-reviews{
+    margin-top: 30px;
+}
+
+.review{
+    margin-top: 30px;
+    display: inline-flex;
+    width: 65%;
+}
+
+.review .fa-star{
+    color: yellow;
+}
+
+.review .grey{
+    color: lightgray;
+}
+
+.review p{
+    position: relative;
+    left: 10px;
+    bottom: 4px;
+}
+
+
+.customer-reviews h1{
+    position: relative;
+    right: 173px;
+    top: 4px;
+    font-weight: 400;
+    color: grey;
+}
+
+.feedbacks{
+    margin-top: 20px;
+    height: 400px;
+    padding: 0px 30px;
+}
+
+.feed{
+    box-shadow: 0px 0px 5px gray;
+    height: 375px;
+    margin: 0px 12px;
+    border-radius: 5px;
+}
+
+.info p{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.info #st{
+    margin-top: 70px;
+}
+
+.info #nd{
+    margin-top: 130px;
+}
+
+#rd{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+}   
+
+.info #th{
+    text-align: right;
+}
+
+.info #third{
+    margin-bottom: 78px;
+}
+
+#name{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 4px;
+}
+
+.date{
+    font-size: 14px;
+}
+
+.date .date2{
+    text-align: right;
+}
+
+.more a{
+    float: right;
+    margin-top: 10px;
+    font-size: 17px;
+    color: black;
+    text-decoration: underline;
+}
+
+.more a:hover{
+    text-decoration: none;
 }

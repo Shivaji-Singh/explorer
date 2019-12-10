@@ -1,0 +1,319 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mycart.css">
+            <link rel="icon" type="image/x-icon" href="favicon.ico">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+          <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+          integrity =" sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+          crossorigin = "anonymous">
+       </script>
+       <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+       <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+       <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+       <!-- Popper -->
+       <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+          integrity = "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+          crossorigin = "anonymous">
+       </script>
+       
+       <!-- Latest compiled and minified Bootstrap JavaScript -->
+       <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+          integrity = "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+          crossorigin =" anonymous">
+       </script>
+
+       <script>
+       $(document).ready(function(){
+
+var quantitiy=0;
+   $('.quantity-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+            
+            $('#quantity').val(quantity + 1);
+
+          
+            // Increment
+        
+    });
+
+     $('.quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(quantity>0){
+            $('#quantity').val(quantity - 1);
+            }
+    });
+    
+});</script>
+
+<script>
+$(document).ready(function(){
+
+var quantiti=0;
+   $('.quantit-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantit = parseInt($('#quantit').val());
+        
+        // If is not undefined
+            
+            $('#quantit').val(quantit + 1);
+
+          
+            // Increment
+        
+    });
+
+     $('.quantit-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantit = parseInt($('#quantit').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(quantit>0){
+            $('#quantit').val(quantit - 1);
+            }
+    });
+    
+});
+</script>
+
+    </head>
+    <body>
+        <div class="w3-container" style="padding: 0px">
+
+            <nav class="navbar" style="height: 94px">
+                <div class="w3-container" style="padding: 0px">
+                    <div class="navbar-header imglogo">
+                        <img src="assets/images/mainlogo.png">
+                    </div>
+                      <ul class="nav" style="height: 58px;">
+                          <ul class="nav navbar-nav header1">
+                              <li style="margin-left: 40%;">
+                            <a href="Login.html" style="padding: 0px">
+                                <button class="button btn-round-xlarge w3-hover-red" name="logsign">Login/Signup</button>
+                            </a>
+                            </li>
+                              <li style="margin-top: 3px" class="fa fa-user"></li>
+                              <li><input type="search" placeholder="Search"></li>
+                              <li style="margin-top: 3px" class="fa fa-shopping-cart"></li>
+                          </ul>
+                          <hr style="width:100%; margin-top: 27px"><br>
+                          <ul class="nav navbar-nav header2" style="margin-top: -34px;">
+                        <li style="margin-left: 21%"><a href="mobile.html">Shop</a></li>
+                        <li><a href="#">Express Delivery</a></li>
+                        <li><a href="#">Annual Plan</a></li>
+                        <li><a href="#">Advisory</a></li>
+                        <li><a href="#">Join Us</a></li>
+                        <li><a href="sendmessage.html" class="lasta">Contact</a></li>
+                      </ul>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="row moneycart">
+                <div class="col-md-3"></div>
+                <div class="col-md-2">
+                    <label>EN<span class="fa fa-caret-down"></span></label>
+                    <label>USD<span class="fa fa-caret-down"></span></label>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-1 profile" style="padding: 0px">
+                    <label><span class="fa fa-user"></span>My profile</label>
+                </div>
+                <div class="col-md-2">
+                    <label><span class="fa fa-lock">0 Items</span></label>
+                    <label>$0.00</label>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+            <nav class="categ">
+                <ul class=" nav navbar-nav headernew" style="width: 100%;">
+                    <li class="mycart"><a style="color: red;" href="#">MY CART</a></li>                    
+                    <li><a  href="#">MESSAGES</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">EXPERIENCE</a></li>
+                    <li><a href="#">SCHEDULE</a></li>
+                    <li><a href="#">SETTINGS</a></li>
+                </ul>       
+            </nav>
+
+            <div class="row navi">
+                <p><small>Home / Accesories / </small>Boat Solo2 on Ear Headphones - Black</p>
+            </div>
+
+        <div class="row cartprod">
+            <div class="row prodhead">
+                <div class="col-md-2"></div>
+                <div class="col-md-4"><p>PRODUCT</p></div>
+                <div class="col-md-1"><p>PRICE</p></div>
+                <div class="col-md-2"><p>QUANTITY</p></div>
+                <div class="col-md-1"><p>UNIT PRICE</p></div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row proddet">
+                <div class="w3-card">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4">
+                            <img src="assets/images/nothome/pic.png"><span>Philips Hue 7W BR30 Connected Downlight Lamp</span>
+                        </div>
+                        <div class="col-md-1"><p>$998</p></div>
+                        <div class="col-md-2 count" style="padding: 0px; margin-top: 55px">
+                                
+                                        <button class=" fa fa-minus quantity-left-minus btn-danger btn-number"  data-type="minus" data-field="">
+                                          
+                                        </button>
+                                
+                                <input type="text" id="quantity" name="quantity" class="input-number" value="2" min="1" max="100">
+                                
+                                    <button type="button" class=" fa fa-plus quantity-right-plus btn-success btn-number" data-type="plus" data-field="">
+                                           
+                                        </button>
+                            
+                        </div>
+                        <div class="col-md-1"><p class="ppr">$499</p></div>
+                        <div class="col-md-2"></div>
+                </div>        
+            </div><br>
+            <div class="row proddet">
+                    <div class="w3-card">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-4">
+                                <img src="assets/images/nothome/pic-1.png"><span>Apple Mac Book Pro</span>
+                            </div>
+                            <div class="col-md-1"><p>$998</p></div>
+                            <div class="col-md-2 count" style="padding: 0px; margin-top: 55px">
+                                    
+                                            <button class=" fa fa-minus quantit-left-minus btn-danger btn-number"  data-type="minus" data-field="">
+                                              
+                                            </button>
+                                    
+                                    <input type="text" id="quantit" name="quantit" class="input-number" value="2" min="1" max="100">
+                                    
+                                        <button type="button" class=" fa fa-plus quantit-right-plus btn-success btn-number" data-type="plus" data-field="">
+                                               
+                                            </button>
+                                
+                            </div>
+                            <div class="col-md-1"><p class="ppr">$499</p></div>
+                            <div class="col-md-2"></div>
+                    </div>        
+                </div>
+            </div>
+
+            <div class="row payment">
+                <div class="col-md-6 voucher">
+                        <input type="text" class="" placeholder="Voucher code" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <button class="button" type="button">Redeem</button>
+                </div>
+                <div class="col-md-6 pay">
+                    <div class="sub">
+                        <div class="sub1">
+                            <div class="col-md-6">
+                                <p>Subtotal</p>
+                                <p>Shippping fee</p>
+                                <p>Total</p>
+                            </div>
+                            <div class="col-md-6 amount">
+                                <p>$998</p>
+                                <p>$20</p>
+                                <p>N/A</p>
+                            </div>
+                        </div>
+                        <div class="total">
+                            <div class="col-md-6">
+                                <p>TOTAL</p>
+                            </div>
+                            <div class="col-md-6 amount">
+                                <p>$118</p>
+                            </div>
+                        </div>
+                        <button class="w3-btn btn-round-large">Check out</button>
+                    </div>
+                    <div class="row cards">
+                        <img src="assets/images/nothome/Group 19 (2).png">
+                        <img src="assets/images/nothome/Paypal (2).png">
+                        <img src="assets/images/nothome/Western-union.png">
+                        <img src="assets/images/nothome/Shape 327 (2).png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="folcon">
+                <div class="col-md-6">
+                    <div class="follow">
+                        <h3>Follow Us</h3><br>
+                        <p>SInce the 1500x, when an unknwon printer took a gallaxy of type and scrambled.</p><br>
+                        <img class="fb" src="assets/images/nothome/fb.png">
+                        <img class="twi" src="assets/images/nothome/twitter.png">
+                    </div>
+                </div>
+                <div class="col-md-6 contact">
+                    <div class="contact">
+                        <h3>Contact Us</h3><br>
+                        <p>My Company, 4570 Moromata Road, Glangao D04 BDGR <br> Call us now: 0123-456-789 <br>
+                        Email:support@aquapay.in
+                        </p><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="endimg">
+                    <img src="assets/images/Ellipse.png">
+                </div>
+            
+                <div class="mainfooter">
+                        <div class="col-md-4 main1">
+                            <p>PRODUCT CATEGORIES</p>
+                            <p>Professional</p>
+                            <p>Components</p>
+                            <p>Consumer</p>
+                            <p>Enterprise</p>
+                        </div>
+                        <div class="col-md-4 main2">
+                                <p>PRODUCT CATEGORIES</p>
+                                <p>Professional</p>
+                                <p>Components</p>
+                                <p>Consumer</p>
+                                <p>Enterprise</p>
+                        </div>
+                        <div class="col-md-4 main3">
+                                <p>PRODUCT CATEGORIES</p>
+                                <p>Professional</p>
+                                <p>Components</p>
+                                <p>Consumer</p>
+                                <p>Enterprise</p>
+                        </div>
+                    </div>
+
+
+        
+
+        </div>
+    </body>
+
+
+
+</html>
