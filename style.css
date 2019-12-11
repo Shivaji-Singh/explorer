@@ -210,8 +210,6 @@ h2{
 
 .container-fluid .navbar{
     width: 100%;
-    position: relative;
-    left: -30px;
     z-index: 1111;
 }
 

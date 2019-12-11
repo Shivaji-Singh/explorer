@@ -222,10 +222,11 @@ hr{
     text-transform: uppercase;
 }
 
-.fa-shopping-cart{
+#shop-cart{
     position: relative;
-    left: 0px;
+    left: -10px;
     top: 0px;
+    font-size: 15px;
 }
 
 .fa-heart-o:before {
@@ -236,13 +237,6 @@ hr{
     font-size: 15px;
 }
 
-.fa-shopping-cart:before {
-    content: "\f08a";
-    position: relative;
-    right: 10px;
-    top: 2px;
-    font-size: 15px;
-}
 
 .similar-items{
     margin-top: 100px;
@@ -327,8 +321,10 @@ hr{
 
 .feedbacks{
     margin-top: 20px;
-    height: 400px;
+    height: 550px;
     padding: 0px 30px;
+    background: url(./Gratefy/assets/images/Ellipse.png) no-repeat bottom;
+    background-size: 70px;
 }
 
 .feed{
@@ -388,6 +384,3 @@ hr{
     text-decoration: underline;
 }
 
-.more a:hover{
-    text-decoration: none;
-}
