@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prod-list.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Product-List</title>
+</head>
+
+<body>
+
+    <div class="container-fluid" style="padding: 0px;">
+        <div class="navbar ">
+            <div class="row">
+                <div class=" col-12">
+                    <ul class="nav" style="margin-left: 45px;">
+                        <button class="btn btn-warning">Login / Sign Up</button>
+                        <li><i class="fa fa-user"></i></li>
+                        <li><input type="text" id="input" placeholder="Search" /> </li>
+                        <li><i class="fa fa-shopping-cart"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" col-12 justify-content-center" id="navbar2">
+            <ul class="navbar ">
+                <ul class="nav" style="margin-left: 350px;">
+                    <li class="nav-service li-marg">
+                        <a href="#" class="nav-link">Shop</a>
+                    </li>
+                    <li class="nav-service">
+                        <a href="#" class="nav-link">Express Delivery</a>
+                    </li>
+                    <li class="nav-service">
+                        <a href="#" class="nav-link">Annual Plan</a>
+                    </li>
+                    <li class="nav-service">
+                        <a href="#" class="nav-link">Advisory</a>
+                    </li>
+                    <li class="nav-service">
+                        <a href="#" class="nav-link">Join Us</a>
+                    </li>
+                    <li class="nav-service">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!-- <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#"><span class="navbar-toggler-icon"></span></button> -->
+            </ul>
+        </div>
+        <div class="img-logo">
+            <a href="./index.html"><img src="./Gratefy/assets/images/mainlogo.png" class="img" alt="logo"></a>
+        </div>
+        <div class="notify">
+            <div class="row m-0">
+                <div class="col-md-12">
+                    <div class="row m-0">
+                        <div class="col-md-9"></div>
+                        <div class="col-md-1 text-center">
+                            <div class="likes ">
+                                <i class="fa fa-heart-o" id="heart"></i>
+                                <p>13</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 p-0 text-center">
+                            <div class="my-cart">
+                                <p>5</p>
+                                <i class="fa fa-shopping-cart" id="cart"></i>
+                                <span>My cart</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-light navbar-expand-lg bg-light">
+            <ul class="navbar-nav center">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link categories" role="button" aria-expanded="false">All Categories</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Camera & Photo <i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="dropdown-item">Laptops<i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="dropdown-item">Mobile Phones<i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="dropdown-item">Audio and Video<i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="dropdown-item">Tablet and Laptop Accessories<i
+                                class="fa fa-angle-right"></i></a>
+                        <a href="#" class="dropdown-item">Office Electronics<i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="dropdown-item">Smart Electronics<i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="dropdown-item">Security and Protection<i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="dropdown-item">Networking<i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="dropdown-item">Video Games<i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="dropdown-item">Storage Devices<i class="fa fa-angle-right"></i></a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Apple</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Samsung</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Motorola</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Xiaomi</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Honor</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Huawei</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Asus</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Nokia</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="view">
+            <div class="row m-0">
+                <div class="col-md-2 text-center">
+                    <div class="sort-by">
+                        <p>Sort by <img src="./Gratefy/assets/images/nothome/left-align.png" alt=""></i></p>
+                    </div>
+                </div>
+                <div class="col-md-2 pl-0 text-center">
+                    <div class="filters">
+                        <ul class="navbar-nav center">
+                            <li class="nav-item dropdown options">
+                                <a href="#" class="nav-link" role="button" aria-expanded="false">Filters <img
+                                        src="./Gratefy/assets/images/nothome/filter.png" alt=""></a>
+                                <div class="dropdown-menu lad">
+                                    <a href="#" class="dropdown-item ladders">Occassion<i
+                                            class="fa fa-angle-right"></i></a>
+                                    <a href="#" class="dropdown-item ladders">Color<i class="fa fa-angle-right"></i></a>
+                                    <a href="#" class="dropdown-item ladders">Price<i class="fa fa-angle-right"></i></a>
+                                    <a href="#" class="dropdown-item ladders">Brand<i class="fa fa-angle-right"></i></a>
+                                    <a href="#" class="dropdown-item ladders">Others<i
+                                            class="fa fa-angle-right"></i></a>
+                                </div>
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item-list">
+                <div class="row m-0">
+                    <div class="col-md-12">
+                        <div class="list">
+                            <div class="row m-0">
+                                <div class="col-md-4 text-center">
+                                    <div class="item-img">
+                                        <span id="st">New</span>
+                                        <img src="./Gratefy/assets/images/nothome/ZEUSLAP-15-6inch-Narrow-Frame-1920x1080P-FHD-IPS-Intel-Quad-Core-CPU-4GB-DDR3-64GB-eMMC.jpg_220x220 (2).png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="item-details">
+                                        <h5>8.0 inch CHUWI Hi8 Air</h5>
+                                        <div class="rate">
+                                            <span>INR. 8599</span>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star grey"></i>
+                                        </div>
+                                        <p>1.6GHz Intel Core i5 processor</p>
+                                        <p>4GB DDR4 RAM</p>
+                                        <p>1TB 5400rpm hard drive</p>
+                                        <p>15.6-inch screen, AMD Radeon 520 Graphics 2GB Graphics</p>
+                                        <p>Win 10 Operating System</p>
+                                        <p>2.13kg Laptop</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="list">
+                            <div class="row m-0">
+                                <div class="col-md-4 text-center">
+                                    <div class="item-img">
+                                        <img src="./Gratefy/assets/images/nothome/Original-Xiaomi-Mi-Notebook-Air-Intel-Core-i5-6200U-CPU-8GB-DDR4-RAM-Intel-GPU-13.jpg_220x220 (2).png"
+                                            alt="" style="height: 232px;width: 232px;">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="item-details">
+                                        <h5>BMXC 2018 Android 7.0 OS 10</h5>
+                                        <div class="rate">
+                                            <span>INR. 8599</span>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star grey"></i>
+                                        </div>
+                                        <p>2.5GHz Intel Core i5-7200U 7th Gen processor</p>
+                                        <p>4GB DDR4 RAM</p>
+                                        <p>1TB 5400rpm Serial ATA hard drive</p>
+                                        <p>15.6-inch screen, AMD 2GB Graphics</p>
+                                        <p>DOS Operating System</p>
+                                        <p>3.4kg Laptop</p>
+                                        <p>1 VGA, 1 HDMI Out, 1 RJ-45, 2 USB 3.0, 1 USB 2.0, SD card reader</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="list">
+                            <div class="row m-0">
+                                <div class="col-md-4 text-center">
+                                    <div class="item-img">
+                                        <span id="rd">50%</span>
+                                        <img src="./Gratefy/assets/images/nothome/DHL-Free-10-inch-Tablet-PC-Android-7-0-4GB-RAM-64GB-ROM-Octa-Core-8.jpg_220x220 (2).png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="item-details">
+                                        <h5>BDF 10 inch Design 3G</h5>
+                                        <div class="rate">
+                                            <span> <span id="cancel">INR. 17198</span> INR. 8599</span>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star grey"></i>
+                                        </div>
+                                        <p>Processor : 8th Gen Intel Core i5-8250U processor, 1.60GHz base processor
+                                            speed </p>
+                                        <p>Operating System : Preloaded Windows 10 Home with lifetime validity</p>
+                                        <p>Display : 15.6-inch Full HD (1920 x 1080p) display</p>
+                                        <p>Memory & Storage : 4GB DDR4 RAM with Intel UHD Graphics 620 GB graphics</p>
+                                        <p>Storage : 1 TB HDD</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="list">
+                            <div class="row m-0">
+                                <div class="col-md-4 text-center">
+                                    <div class="item-img">
+                                        <img src="./Gratefy/assets/images/nothome/ZEUSLAP-15-6inch-Narrow-Frame-1920x1080P-FHD-IPS-Intel-Quad-Core-CPU-4GB-DDR3-64GB-eMMC.jpg_220x220 (2).png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="item-details">
+                                        <h5>8.0 inch CHUWI Hi8 Air</h5>
+                                        <div class="rate">
+                                            <span>INR. 8599</span>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star grey"></i>
+                                        </div>
+                                        <p>1.6GHz Intel Core i5 processor</p>
+                                        <p>4GB DDR4 RAM</p>
+                                        <p>1TB 5400rpm hard drive</p>
+                                        <p>15.6-inch screen, AMD Radeon 520 Graphics 2GB Graphics</p>
+                                        <p>Win 10 Operating System</p>
+                                        <p>2.13kg Laptop</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="list">
+                            <div class="row m-0">
+                                <div class="col-md-4 text-center">
+                                    <div class="item-img">
+                                        <img src="./Gratefy/assets/images/nothome/Original-Xiaomi-Mi-Notebook-Air-Intel-Core-i5-6200U-CPU-8GB-DDR4-RAM-Intel-GPU-13.jpg_220x220.png"
+                                            alt="" style="height: 232px;width: 232px;">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="item-details">
+                                        <h5>BMXC 2018 Android 7.0 OS 10</h5>
+                                        <div class="rate">
+                                            <span>INR. 8599</span>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star grey"></i>
+                                        </div>
+                                        <p>2.5GHz Intel Core i5-7200U 7th Gen processor</p>
+                                        <p>4GB DDR4 RAM</p>
+                                        <p>1TB 5400rpm Serial ATA hard drive</p>
+                                        <p>15.6-inch screen, AMD 2GB Graphics</p>
+                                        <p>DOS Operating System</p>
+                                        <p>3.4kg Laptop</p>
+                                        <p>1 VGA, 1 HDMI Out, 1 RJ-45, 2 USB 3.0, 1 USB 2.0, SD card reader</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line">
+            <div class="row m-0">
+                <div class="col-md-5" style="border-top: 2px solid brown;"></div>
+                <div class="col-md-5" style="border-top: 2px solid brown;position: relative;left: 225px;"></div>
+            </div>
+        </div>
+        <div class="footer text-center">
+            <div class="row m-0">
+                <div class="col-md-4 pr-0 pl-0 product-categories" id="first-category">
+                    <h6>Product Categories</h6>
+                    <ul class="categories">
+                        <li>Professional</li>
+                        <li>Components</li>
+                        <li>Consumer</li>
+                        <li>Enterprise</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 pr-0 pl-0 product-categories">
+                    <h6>Product Categories</h6>
+                    <ul class="categories">
+                        <li>Professional</li>
+                        <li>Components</li>
+                        <li>Consumer</li>
+                        <li>Enterprise</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 pr-0 pl-0 product-categories" id="third-category">
+                    <h6>Product Categories</h6>
+                    <ul class="categories">
+                        <li>Professional</li>
+                        <li>Components</li>
+                        <li>Consumer</li>
+                        <li>Enterprise</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

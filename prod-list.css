@@ -1,0 +1,250 @@
+.notify{
+    margin-top: 60px;
+    text-align: right;
+
+}
+
+.likes{
+    display: inline-flex;
+}
+
+#heart{
+    font-size: 25px;
+}
+
+.likes p{
+    background-color: #cc3131;
+    border-radius: 15px;
+    height: 25px;
+    width: 25px;
+    color: white;
+    margin-left: 5px;
+}
+
+.my-cart{
+    display: inline-flex;
+}
+
+.my-cart p{
+    background-color: #cc3131;
+    border-radius: 15px;
+    height: 25px;
+    width: 25px;
+    color: white;
+    margin-right: 5px;
+}
+
+#cart{
+    font-size: 25px;
+    padding-right: 20px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.my-cart span{
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    font-weight: 600;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.dropdown .categories{
+    background-color: #cc3131;
+    color: white !important;
+    width: 250px;
+    text-align: left;
+}
+
+.navbar-light{
+    box-shadow: 0px 3px 2px rgb(233, 233, 233);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .navbar-light .navbar-nav .dropdown {
+    color: white;
+    background-color: #cc3131;
+    width: 300px;
+}
+
+.dropdown-menu .dropdown-item{
+    border-bottom: 1px solid cornflowerblue;
+    width: 300px;
+    border-radius: 0px;
+}
+
+.dropdown-item .fa-angle-right{
+    float: right;
+    position: relative;
+    top: 4px;
+}
+
+.nav-item{
+    padding: 0px 10px;
+}
+
+.view{
+    margin : 100px 100px 0px  100px;
+    padding-bottom: 100px;
+    background: url(./Gratefy/assets/images/Ellipse.png) no-repeat bottom;
+    background-size: 70px;
+}
+
+.sort-by{
+    background-color: rgb(223, 222, 222);
+    height: 35px;
+    width: 104.97px;
+}
+
+.sort-by img{
+    width: 20px;
+    position: relative;
+    bottom: 1px;
+    left: 5px;
+}
+
+.sort-by p{
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.filters {
+    background-color: rgb(223, 222, 222);
+    height: 35px;
+    width: 104.97px;
+}
+
+.options{
+    width: 104px;
+    height: 35px;
+}
+
+.options a{
+    color: black;
+    padding: 0px;
+    line-height: 35px;
+}
+
+.options img{
+    width: 20px;
+    position: relative;
+    bottom: 1px;
+    left: 5px;
+}
+
+.fa-check::before{
+    content: "\f00c";
+    background-color: #cc3131;
+    padding: 7px;
+    color: white;
+    border-radius: 16px;
+    position: relative;
+    bottom: 47px;
+    left: 55px;
+}
+
+.options:hover .fa-check::before {
+    display: block;
+    position: relative;
+    bottom: 274px;
+}
+
+.navbar-light{
+    box-shadow: 0px 3px 2px rgb(233, 233, 233);
+}
+
+.options:hover .lad {
+    display: block;
+    position: relative;
+    left: -10px;
+    width: 300px;
+    top: 0px;
+    padding: 0px;
+    border-radius: 0px;
+  }
+
+.navbar-light .navbar-nav .options {
+    color: white;
+    background-color: #cc3131;
+    width: 200px;
+}
+
+.lad .ladders{
+    border-bottom: 1px solid rgb(214, 214, 214);
+    width: 298px;
+    border-radius: 0px;
+    padding: 4px 12px;
+    background-color: rgb(238, 238, 238);
+}
+
+.ladders .fa-angle-right{
+    float: right;
+    position: relative;
+    top: 4px;
+}
+
+
+
+.list{
+    box-shadow: 0px 0px 10px lightgrey;
+    width: 100%;
+    margin: 40px 0px;
+    height: 272px;
+}
+
+.item-details{
+    margin: 20px 0px;
+}
+
+.item-details p{
+    margin:0px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.item-details .rate span{
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.rate span #cancel{
+    color: lightgray;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.item-img{
+    padding-top: 20px;
+}
+
+#st{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(17, 158, 212);
+    padding: 5px 15px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 210px;
+    right: 313px;
+}
+
+#rd{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(219, 47, 16);
+    padding: 5px 15px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 210px;
+    right: 315px;
+}

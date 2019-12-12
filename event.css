@@ -1,0 +1,33 @@
+.trio-image{
+    margin-top: 100px;
+    height: 340px;
+    border-top: 20px solid lightgray;
+    border-bottom: 20px solid lightgray;
+
+}
+
+
+.image1 img{
+    position: relative;
+    width: 720px;
+    height: 300px;
+    right: 422px;
+}
+
+.image2 img{
+    height: 300px;
+    width: 745px;
+    position: relative;
+    right: 39px;
+}
+
+.image3{
+    overflow-x: hidden;
+}
+
+.image3 img{
+    position: relative;
+    right: 81px;
+    height: 300px;
+    width: 685px;
+}

@@ -206,8 +206,8 @@
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     position: relative;
-    bottom: 202px;
-    right: 86px;
+    bottom: 196px;
+    right: 80px;
 }
 
 #rd span{
@@ -224,6 +224,9 @@
 
 .featured-products{
     margin: 0px 100px;
+    height: 800px;
+    background: url(./Gratefy/assets/images/Ellipse.png) no-repeat bottom;
+    background-size: 70px;
 }
 
 .featured-nav p{
@@ -232,5 +235,63 @@
 
 .featured-nav{
     border-bottom: 2px solid #cc3131;
+    height: 41px;
+}
 
+.featured-nav #tabs{
+    display: inline-flex;
+}
+
+#tabs li{
+    list-style: none;
+    padding: 10px 21px;
+    font-size: 13px;
+}
+
+#tabs #third{
+    background-color: #cc3131;
+}
+
+li a{
+    color: black;
+}
+
+#third a{
+    color: white;
+
+}
+
+li a:hover{
+    text-decoration: none;
+}
+
+.prods{
+    width: 100%;
+    height: 175px;
+    margin-top: 10px;
+    border: 1px solid lightgrey;
+}
+
+.prods img{
+    width: 50%;
+    padding-top: 10px;
+}
+
+.prods .rate{
+    text-align: left;
+}
+
+.prods .name{
+    margin : 5px 0px;
+    font-size: 12px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.prods .value{
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    text-align: left;
 }
