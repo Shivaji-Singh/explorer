@@ -1,5 +1,5 @@
 .trio-image{
-    margin-top: 100px;
+    margin-top: 50px;
     height: 340px;
     border-top: 20px solid lightgray;
     border-bottom: 20px solid lightgray;
@@ -9,16 +9,15 @@
 
 .image1 img{
     position: relative;
-    width: 720px;
+    width: 811px;
     height: 300px;
-    right: 422px;
+    right: 474px;
 }
+
 
 .image2 img{
     height: 300px;
-    width: 745px;
-    position: relative;
-    right: 39px;
+    width: 100%;
 }
 
 .image3{
@@ -26,8 +25,67 @@
 }
 
 .image3 img{
-    position: relative;
-    right: 81px;
     height: 300px;
-    width: 685px;
+    width: 750px;
+}
+
+
+.events-venue{
+    margin: 50px 50px 0px 50px;
+    padding-bottom: 100px;
+    background: url(./Gratefy/assets/images/Ellipse.png) no-repeat bottom;
+    background-size: 70px;
+}
+
+.filter p, .date p{
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.event-img img{
+    width: 100%;
+}
+
+.schedule {
+    margin-bottom: 50px;
+    background-color: #f1efef;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.option{
+    border-radius: 10px;
+}
+
+.schedule .filter, .schedule .date{
+    margin: 20px 0px 40px 0px;
+    font-weight: 500;
+}
+
+.filter #title, .date #title{
+    margin-bottom: 20px;
+}
+
+
+#st{
+    color: red;
+}
+
+.location{
+    padding: 10px;
+}
+
+.location p{
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+}
+
+.price p {
+    color: red;
+    padding-top: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.3px;
 }
